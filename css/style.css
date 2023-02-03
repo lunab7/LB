@@ -84,7 +84,7 @@ footer { font-family: 'Allerta Stencil', sans-serif; }
 }}
 
 @media screen and (max-width: 800px) {
- img.img-fluid { width: 300%
+ img.foto { display: block; margin: auto;
 }}
 
 
