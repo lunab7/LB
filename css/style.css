@@ -69,9 +69,22 @@ div.title { color: whitesmoke; font-family: 'Allerta Stencil', sans-serif; }
 
 footer { font-family: 'Allerta Stencil', sans-serif; }
 
+
 @media screen and (max-width: 800px) {
 	img.foto {max-width: 85%;}
-}
 
+@media screen and (max-width: 800px) {
+	div.card {max-width: 100%;
+		font-size: small;}
+
+@media screen and (max-width: 800px) {
+  div.row {
+    flex-direction: column;
+    align-content: center;
+}}
+
+@media screen and (max-width: 800px) {
+ img.img-fluid { width: 300%
+}}
 
 
