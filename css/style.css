@@ -50,7 +50,7 @@ font-size: x-large;}
 h4.card-title {font-family: 'Bebas Neue', cursive; font-size: xx-large;}
 h4,p.card-text-doc { font-family: 'Space Grotesk', sans-serif;
 font-size: large;}
-
+p {font-size: medium;}
 
 p.card-text-info {color: whitesmoke; font-family: 'Poiret One', cursive; font-size: medium;}
 
@@ -86,5 +86,18 @@ footer { font-family: 'Allerta Stencil', sans-serif; }
 @media screen and (max-width: 800px) {
  img.foto { display: block; margin: auto;
 }}
+
+
+@media screen and (max-width: 800px) {
+  p.card-text-info {
+    text-align: center;
+}}
+
+@media screen and (max-width: 800px) {
+  a.btn {
+    flex-direction: column;
+    align-content: center;
+}}
+
 
 
