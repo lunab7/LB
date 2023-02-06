@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	;
+	scroll-behavior: smooth;
 }
 header {font-family: 'Allerta Stencil', sans-serif;
 text-align: center;}
@@ -18,11 +18,6 @@ nav ul li {
 
 a.navbar-brand:hover {opacity:  0.5;
  	transition: opacity .5s ease-in-out;}
-
-
-
-
-
 
 li.unactive a {color: whitesmoke;}
 li.active a { color: dimgrey; }
@@ -43,6 +38,7 @@ section.row-morepadding {
 	display: flex;
 	flex:  1 0 0%;
 	flex-direction:  column; }
+
 h3.card-title { font-family: 'Allerta Stencil', sans-serif; }
 h3,p.card-text-aboutus { color: whitesmoke; font-family: 'Poiret One', cursive; 
 font-size: x-large;}
@@ -59,8 +55,7 @@ text-align: center;}
 p.card-text { font-family: 'Poiret One', cursive; 
 text-align: center;}
 
-h6.card-title { font-family: 'Water Brush', cursive;
-}
+h6.card-title { font-family: 'Water Brush', cursive;}
 { text-decoration: none; }
 h6,p.card-text { font-family: 'Poiret One', cursive; 
 text-align: center; }
@@ -71,11 +66,11 @@ footer { font-family: 'Allerta Stencil', sans-serif; }
 
 
 @media screen and (max-width: 800px) {
-	img.foto {max-width: 85%;}
+	img.foto {max-width: 85%;}}
 
 @media screen and (max-width: 800px) {
 	div.card {max-width: 100%;
-		font-size: small;}
+		font-size: small;}}
 
 @media screen and (max-width: 800px) {
   div.row {
